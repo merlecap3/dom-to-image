@@ -570,7 +570,7 @@
     }
 
     function newInliner() {
-        var URL_REGEX = /url\(['"]?([^'"]+?)['"]?\)/g;
+        var URL_REGEX = /url\(['"]?([^'"]+?)['"]\)/g;
 
         return {
             inlineAll: inlineAll,
